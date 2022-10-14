@@ -1,0 +1,15 @@
+.contenido-nosotros {
+   @include tablet {
+    @include grid(2, 1fr);
+    column-gap: 2rem;
+    
+   }
+}
+.contenido {
+    blockquote {
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 2rem;
+    font-weight: $bold;
+}
+}
