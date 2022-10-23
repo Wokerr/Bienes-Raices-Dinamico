@@ -16,6 +16,9 @@
         .icono { 
             filter: invert(100%);
         }
+        p {
+            color: $blanco;
+        }
     }
     .contenido {
         blockquote {
@@ -32,4 +35,10 @@
             color: $blanco;
             }
         }
+    table {
+        td {
+            color: $blanco;
+        }
     }
+
+}

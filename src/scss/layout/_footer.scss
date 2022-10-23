@@ -9,9 +9,12 @@
     .navegacion {
         visibility: visible;
         opacity: 1;
+        display: flex;
+        margin-bottom: 2rem;
     }
     .copyright {
         color: $blanco;
         text-align: center;
+        padding-top: 2rem;
     }
 }

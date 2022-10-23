@@ -1,41 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="build/css/app.css">
-    <title>Bienes Raices</title>
-</head>
-<body>
-    <header class="header">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="/"><img src="build/img/logo.svg" alt="Logotipo Bienes Raices" srcset=""></a>
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nostros</a href="#">
-                    <a href="anuncios.html">Anuncios</a href="#">
-                    <a href="blog.html">Blog</a href="#">
-                    <a href="contacto.html">Contacto</a href="#">
-                </nav>
-            </div> <!--.barra-->
-        </div>
-    </header>
+<?php 
+
+    require 'includes/funciones.php';
+    incluirTemplate('header'); ?>
+
     <main>
         <h1>Titulo pagina</h1>
     </main>
     <footer class="footer seccion">
        <div class="contenedor contenedor-footer">
         <nav class="navegacion">
-            <a href="nosotros.html">Nostros</a href="#">
-            <a href="anuncios.html">Anuncios</a href="#">
-            <a href="blog.html">Blog</a href="#">
-            <a href="contacto.html">Contacto</a href="#">
+            <a href="nosotros.php">Nostros</a href="#">
+            <a href="anuncios.php">Anuncios</a href="#">
+            <a href="blog.php">Blog</a href="#">
+            <a href="contacto.php">Contacto</a href="#">
         </nav>
        </div>
         <p>Todos los derechos Reservados 2022 &copy;</p>
     </footer>
-
+    <?php incluirTemplate('footer'); ?>   
 
     <script src="build/js/bundle.min.js"></script>
 </body>
